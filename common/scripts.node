@@ -1,0 +1,5 @@
+#this doc is to put some scripts nodes
+1.how to redirect java run result to a file
+	java -Xss300k StackErrorDemo > a.error 2>&1 
+you must add the 2>&1 in the end, otherwise the reuslt is not be redirected to the file entire
+
